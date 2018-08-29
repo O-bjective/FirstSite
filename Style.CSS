@@ -1,0 +1,13 @@
+p{
+	fontsize: 200%;
+	color: purple;
+}
+
+body {
+  background-color: lightblue;
+}
+
+img{
+	padding: 25px;
+	border:25px solid red;
+}

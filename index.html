@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html><!-- start and end with these tags -->
  <head><!-- head section has information about the web page that doesn't get displayed -->
-  <title> Example web page</title></head><!--title of the tab in the browser-->
+  <title> Example web page</title>
+  <link rel="stylesheet" type="text/css" href="style.CSS">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="Myscript.js"></script>
+  </head><!--title of the tab in the browser-->
+ 
  <body> <!-- This section contains what will show up on the web page -->
-  <h1>Hello, world</h1>
-  <p>
+  <h1 id="h1">Hello, world</h1>
+  
+  <p id="p1">
     Welcome to my web page. this web page is a demonstration of HTML.
   </p>
-  <p>This is a test</p>
-  <img src="Volcanostorm.jpg" alt="Storm Eruption"> <!-- src and alt are required attributes for the img tag -->
+  <p id="p2" class="disappear">This is a test</p>
+  <p class="disappear">Third Paragraph</p>
+  <img src="Volcanostorm.JPG" alt="Storm Eruption"> <!-- src and alt are required attributes for the img tag -->
+ 
  </body>
 </html>
